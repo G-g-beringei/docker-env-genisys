@@ -20,5 +20,5 @@ RUN mkdir -p /srv/genisys && chown genisys:genisys /srv/genisys
 VOLUME /srv/genisys
 WORKDIR /srv/genisys
 USER genisys
-EXPOSE 19132/udp
+EXPOSE 19132
 CMD ["php", "/srv/genisys/genisys.phar"]
